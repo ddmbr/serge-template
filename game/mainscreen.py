@@ -30,7 +30,7 @@ class MainScreen(serge.blocks.actors.ScreenActor):
         #
         #   self.player = serge.blocks.utils.addActorToWorld(
         #       world,
-        #       player.PlayerCar('player', 'player')
+        #       player.Player('player', 'player')
         #       )
         #
 
