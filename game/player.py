@@ -12,7 +12,7 @@ from theme import G
 
 class Player(serge.blocks.actors.ScreenActor):
     def addedToWorld(self, world):
-        super(PlayerCar, self).addedToWorld(world)
+        super(Player, self).addedToWorld(world)
         #
         # Place the player properly
         self.moveTo(G('player-x'), G('player-y'))
